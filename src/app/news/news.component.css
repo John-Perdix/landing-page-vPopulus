@@ -1,0 +1,73 @@
+.absolute{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.opacity-02 {
+    opacity: 0.2;
+}
+
+img {
+    position: relative;
+    z-index: 10;
+}
+
+
+.background-skew{
+    background-color: #1d1d1d;
+    width: 100%;
+}
+
+.background-skew::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 600px;
+    transform-origin: left top;
+    transform: skewY(5deg);
+}
+
+.bottom-line{
+    border-bottom: solid 1px #505050;
+}
+
+.left-line {
+    border-left: solid 1px #505050;
+}
+
+
+.hover {
+    border: 5px solid;
+    border-image: linear-gradient(135deg,#F8CA00 ,#fff) 8;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+  }
+  .hover:hover {
+    --_i: 100%;
+    transition: .3s, -webkit-mask-size .3s .3s;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .news {
+    color: white;
+  }
+
+  .arrow-down{
+    color: #fff;
+    font-size: 15em;
+    position: relative;
+    left: -100px;
+    top: -500px;
+  }

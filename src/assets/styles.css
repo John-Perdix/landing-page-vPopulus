@@ -3985,7 +3985,6 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
-  background-color: transparent;
   border-color: transparent;
 }
 .nav-tabs .nav-link.active,
@@ -4037,6 +4036,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  background-color: #fff;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -4099,7 +4099,6 @@ textarea.form-control-lg {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
@@ -4167,7 +4166,6 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4220,7 +4218,6 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4273,7 +4270,6 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4326,7 +4322,6 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4379,7 +4374,6 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4431,7 +4425,6 @@ textarea.form-control-lg {
   z-index: 1000;
   flex-grow: 1;
   visibility: visible !important;
-  background-color: transparent;
   border-right: 0;
   border-left: 0;
   transition: none;
@@ -6540,6 +6533,7 @@ textarea.form-control-lg {
   right: 0;
   left: 0;
   z-index: 1030;
+
 }
 
 .fixed-bottom {
@@ -11338,4 +11332,150 @@ html {
 
 .bg-yellow{
   background-color: var(--bs-yellow);
+}
+
+
+/* my css
+homepage */
+
+.rank{
+  margin: 20px 30px 10px 30px;
+  padding: 3px;
+
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.d-align-flex-end{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+.paddig-l-r-3{
+  padding-left: 3em;
+  padding-right: 3em;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-background_rank {
+  background-image: url("../assets/background_rank.png") !important;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-background-city-back{
+  background-image: url("../assets/city_background.png") !important;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: relative;
+
+  background-position-y: -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.image-background-city-vetorial{
+  background-image: url("../assets/city.png") !important;
+  width: 100%;
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-background-city-footer{
+  background-image: url("../assets/city-footer.png") !important;
+  width: 100%;
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle{
+  width: 25px;
+  position: relative;
+  left: -10px;
+}
+
+.d-flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex-between p{
+  margin: 0;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  color: #fff !important;
+  padding-bottom: 5em;
+}
+
+.social_media img, svg{
+  width: 40px;
+  fill: #fff;
+}
+
+.huge{
+  font-size: 400px;
+  -webkit-text-stroke-color:#505050;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+}
+
+.numberig-100{
+  position: relative;
+  left: -100px;
+}
+
+.numberig-80{
+  position: relative;
+  left: -80px;
+}
+
+.numberig-300{
+  position: relative;
+  left: -300px;
+}
+
+.numberig h1{
+  position: relative;
+  left: -50px;
+}
+
+.margin-negative{
+  margin-top: -200px;
+}
+
+/*   div{
+  outline: solid 2px red;
+} */
+
+.width-100 {
+  width: 100%;
 }

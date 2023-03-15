@@ -1,0 +1,10 @@
+.absolute{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 0;
+}
+
+.opacity-02 {
+    opacity: 0.2;
+}
